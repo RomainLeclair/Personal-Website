@@ -1,0 +1,45 @@
+/* Centered text */
+html {
+    scroll-behavior: smooth;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.myhr{
+    border: 1.5px solid rgb(103, 74, 170);
+}
+ul {
+    list-style-type: none;
+}
+
+.card{
+    border-radius: 9px;
+    box-shadow: 0 10px 20px;
+}
+
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+.zoom {
+    transition: transform .5s;
+  }
