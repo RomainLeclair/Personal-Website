@@ -29,6 +29,7 @@ ul {
 }
 
 
+
 .card-horizontal {
     display: flex;
     flex: 1 1 auto;
@@ -42,4 +43,37 @@ ul {
 
 .zoom {
     transition: transform .5s;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+ /* height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;*/
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rgb(103, 74, 170);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(103, 74, 170);
+}
+
+.carousel .carousel-indicators li {
+    background-color: rgba(70, 70, 70, 0.25);
+    background-color: rgba(70, 70, 70, 0.25);
   }
+
+.carousel-indicators .active{
+    background-color:rgb(103, 74, 170);
+}
